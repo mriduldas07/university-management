@@ -4,6 +4,7 @@
   "main": "src/server.ts",
   "author": "Mridul das",
   "license": "\\",
+  "scripts": {},
   "devDependencies": {
     "typescript": "^5.0.4"
   },
