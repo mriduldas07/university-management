@@ -1,0 +1,48 @@
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:03:27.735Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:03:27.744Z'
+}
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:09:06.478Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:09:06.483Z'
+}
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:09:40.371Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:09:40.378Z'
+}
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:13:56.798Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-11T10:13:56.802Z'
+}

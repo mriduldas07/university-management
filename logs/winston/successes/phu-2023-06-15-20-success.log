@@ -1,0 +1,54 @@
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:42:25.936Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:42:25.949Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:46:44.459Z'
+}
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:48:04.196Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:48:04.225Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:50:28.100Z'
+}
+{
+  message: 'database connected succesfully',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:50:49.004Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:50:49.010Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'lol!',
+  timestamp: '2023-06-15T14:58:51.357Z'
+}

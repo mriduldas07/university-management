@@ -1,0 +1,95 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/.8771841998cbee2e92eb8db3c23c01ba6473a41b-audit.json",
+    "files": [
+        {
+            "date": 1686289433335,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-09-11-error.log",
+            "hash": "88f39e71e1020a070bec96d4b8b941aff9fb5a5c1a22dfa57d4a01367aafdedb"
+        },
+        {
+            "date": 1686307386431,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-09-16-error.log",
+            "hash": "9c74f605b5d387ad87d75c2e62f9f01de5afd81d3759d8a50c814a45ea843468"
+        },
+        {
+            "date": 1686323071645,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-09-21-error.log",
+            "hash": "8eaabdf335d90e1bd11a1ee05752b1ecdd7dd99da924c867e487652062c8c052"
+        },
+        {
+            "date": 1686379512804,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-10-12-error.log",
+            "hash": "a7525467e1a1ba7cf790af40ecc3a6b9e90d1ae672f72efe6c908381225b9b08"
+        },
+        {
+            "date": 1686380549016,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-10-13-error.log",
+            "hash": "d764a74bac3c229adda842917f25b9b936dfb946a399dcc91118ee069aa9293b"
+        },
+        {
+            "date": 1686403153122,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-10-19-error.log",
+            "hash": "7c001dd0ebcd83c4dc6f25cbde76f4ed726529c284d2c9666aae011d87ee7235"
+        },
+        {
+            "date": 1686463685534,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-11-12-error.log",
+            "hash": "be5680271ccbb63a7bfd75db43a57a6cdc56a79b527ba71c0c0fd4589179f752"
+        },
+        {
+            "date": 1686470776301,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-11-14-error.log",
+            "hash": "19f9e1e5de3724bf4d5f6fcdb32f15f9a5bb451685a00e7b3a5f55c2c1c2f197"
+        },
+        {
+            "date": 1686477804248,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-11-16-error.log",
+            "hash": "b18f6647e6fa56e342aa8e32cd140094e4a52a3e728d6da77f98d2ad9648db83"
+        },
+        {
+            "date": 1686591438557,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-12-23-error.log",
+            "hash": "516a644200cb85d49e28673e9c0cd516a90fabee82bbe1fc605198191af39761"
+        },
+        {
+            "date": 1686728264195,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-14-13-error.log",
+            "hash": "9809e6079955081b965562b4c1a8155477bb7d20f120643c6ac5feec3d68f257"
+        },
+        {
+            "date": 1686736423131,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-14-15-error.log",
+            "hash": "c62dae7575fe7f205cfeba05e9278028a9ca49e4ec099992914ee468973cce38"
+        },
+        {
+            "date": 1686738444619,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-14-16-error.log",
+            "hash": "371d9d25a816e71b22745194fd934d69b32401a7eb747d868de8ae9384f0f063"
+        },
+        {
+            "date": 1686818110331,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-15-14-error.log",
+            "hash": "c1b3b068aa52ec9b0f8d0b2454431813bd99482c8b83b38bdbb470e8cf815378"
+        },
+        {
+            "date": 1686819768177,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-15-15-error.log",
+            "hash": "be9c2c9e28a5d436b81e48ef26ad38e6c9ccb26e5ae81593485125902b1332dc"
+        },
+        {
+            "date": 1686840137593,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-15-20-error.log",
+            "hash": "ff4ffbdbb4d2a076cf27ddbefc884cd18ff7cb466bf4f250ad7f0469d6af195f"
+        },
+        {
+            "date": 1686841722048,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/errors/phu-2023-06-15-21-error.log",
+            "hash": "8b8cbfeaa6f376226cb47797fa3f07d44e971cffd843b2e43efbe408b1019d5e"
+        }
+    ],
+    "hashType": "sha256"
+}

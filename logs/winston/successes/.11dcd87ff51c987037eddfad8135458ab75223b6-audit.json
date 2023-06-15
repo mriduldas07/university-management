@@ -1,0 +1,105 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/.11dcd87ff51c987037eddfad8135458ab75223b6-audit.json",
+    "files": [
+        {
+            "date": 1686289433332,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-09-11-success.log",
+            "hash": "c36ae173028e68cb4307793665dc9e09dd53c37ee3d34a25989ffdb2ad035089"
+        },
+        {
+            "date": 1686307386400,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-09-16-success.log",
+            "hash": "6a3f5d71876d0d9592c154b46ecd1dc1bb964c521f62eb925dcfcfaff60a53a9"
+        },
+        {
+            "date": 1686323071603,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-09-21-success.log",
+            "hash": "a56b06521e64a1d7787fa514c0a75d82378c18f1d9cddefe2fb3e56a00911155"
+        },
+        {
+            "date": 1686379512786,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-10-12-success.log",
+            "hash": "24f58f2cb2c34d793dfd94563c39059c2735075388f6bc0114ef139f679263ab"
+        },
+        {
+            "date": 1686380548955,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-10-13-success.log",
+            "hash": "da7a6ef7a24f7bb1ac5230b36ff2ad576ae1889cc6ba4ce1989cdd6358dba13c"
+        },
+        {
+            "date": 1686403153095,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-10-19-success.log",
+            "hash": "8e1fe3ff15cf3a6af88fe32adcedc19c4adffbf336766b912971c441a93a240a"
+        },
+        {
+            "date": 1686463685460,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-11-12-success.log",
+            "hash": "c7bea606b9ee85db9d9031c4cd0f1a23989a417b90a7e6fd56f26664b8f9b3ec"
+        },
+        {
+            "date": 1686470776276,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-11-14-success.log",
+            "hash": "dc2c77c25b957e9e67a4625fe8e72c766117350a7ce7df41cb734ab16b1002c9"
+        },
+        {
+            "date": 1686477804232,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-11-16-success.log",
+            "hash": "a206127a2cebd5a22fe63066802b70bd4f40a4dba3b00d12310c10f271ecd3a8"
+        },
+        {
+            "date": 1686591438485,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-12-23-success.log",
+            "hash": "384f4c48b6988c8f8881343f6701fb78d2fd4761106c6ebd5d9a89ba26ac78b7"
+        },
+        {
+            "date": 1686728264174,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-14-13-success.log",
+            "hash": "dfe2f666fe7889f2531ca99b999e75e743f217aea42540b3e5d3c9aba8e854bf"
+        },
+        {
+            "date": 1686729791756,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-14-14-success.log",
+            "hash": "55fad5fa0b2146f7df365db0aeaaf79393674cad30aaed73e8b3db04a058314c"
+        },
+        {
+            "date": 1686736423085,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-14-15-success.log",
+            "hash": "3f1892406ea27ee13e8455cee009aade2175448b3f33a49d564363b31bcd817a"
+        },
+        {
+            "date": 1686738444587,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-14-16-success.log",
+            "hash": "3a16eaa58c476f214a33a9b96ce6af38b4563ff652041138c3433896c253bb28"
+        },
+        {
+            "date": 1686767282203,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-15-00-success.log",
+            "hash": "08f93b5b7691ca4a6bef779b93d0ef510edd7533ee496c54ec95c3ebae736b87"
+        },
+        {
+            "date": 1686818110248,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-15-14-success.log",
+            "hash": "0aef1c1da7d3c42a2132676cbc92a7a5c364874b23d126ef00750e795af4172e"
+        },
+        {
+            "date": 1686819768147,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-15-15-success.log",
+            "hash": "b35581e4bdd3b55f98a6d7eae0e23483615297fd0d6174f8939495323b48ded3"
+        },
+        {
+            "date": 1686840137552,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-15-20-success.log",
+            "hash": "bb2023d78344d59e88987e4ad62782468d0cc3b6dcc3e3624ae8359d4e008316"
+        },
+        {
+            "date": 1686841722032,
+            "name": "/media/mridul/workdrive/next-level-2/university-manage-auth-service/logs/winston/successes/phu-2023-06-15-21-success.log",
+            "hash": "33b0abe5885ad589fc267410eb928391fd0f88993b9f41b5a99ddd313dd7f7d3"
+        }
+    ],
+    "hashType": "sha256"
+}

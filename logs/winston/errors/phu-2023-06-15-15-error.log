@@ -1,0 +1,428 @@
+{
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  cause: MongoNetworkError: 
+      at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+      at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+      at Object.onceWrapper (node:events:626:26)
+      at TLSSocket.emit (node:events:511:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at processTicksAndRejections (node:internal/process/task_queues:82:21)
+      at runNextTicks (node:internal/process/task_queues:64:3)
+      at listOnTimeout (node:internal/timers:540:9)
+      at processTimers (node:internal/timers:514:7) {
+    cause: AggregateError: 
+        at internalConnectMultiple (node:net:1102:18)
+        at internalConnectMultiple (node:net:1160:5)
+        at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+        at listOnTimeout (node:internal/timers:575:11)
+        at processTimers (node:internal/timers:514:7) {
+      code: 'ENETUNREACH',
+      [errors]: [
+        Error: connect ENETUNREACH 64:ff9b::3210:5761:27017 - Local (192.168.36.219:55124)
+            at internalConnectMultiple (node:net:1159:40)
+            at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+            at listOnTimeout (node:internal/timers:575:11)
+            at processTimers (node:internal/timers:514:7) {
+          errno: -101,
+          code: 'ENETUNREACH',
+          syscall: 'connect',
+          address: '64:ff9b::3210:5761',
+          port: 27017
+        }
+      ]
+    },
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+  },
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-sle3huu-shard-00-00.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-00.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174325178,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21)
+            at runNextTicks (node:internal/process/task_queues:64:3)
+            at listOnTimeout (node:internal/timers:540:9)
+            at processTimers (node:internal/timers:514:7) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3210:5761:27017 - Local (192.168.36.219:55124)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3210:5761',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'ac-sle3huu-shard-00-02.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-02.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174325179,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3d5:40d4:27017 - Local (192.168.36.219:38508)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3d5:40d4',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'ac-sle3huu-shard-00-01.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-01.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174325233,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3d3:ec39:27017 - Local (192.168.36.219:48698)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3d3:ec39',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-7l3hq9-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-06-15T09:03:19.037Z'
+}
+{
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  cause: MongoNetworkError: 
+      at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+      at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+      at Object.onceWrapper (node:events:626:26)
+      at TLSSocket.emit (node:events:511:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at processTicksAndRejections (node:internal/process/task_queues:82:21)
+      at runNextTicks (node:internal/process/task_queues:64:3)
+      at listOnTimeout (node:internal/timers:540:9)
+      at processTimers (node:internal/timers:514:7) {
+    cause: AggregateError: 
+        at internalConnectMultiple (node:net:1102:18)
+        at internalConnectMultiple (node:net:1160:5)
+        at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+        at listOnTimeout (node:internal/timers:575:11)
+        at processTimers (node:internal/timers:514:7) {
+      code: 'ENETUNREACH',
+      [errors]: [
+        Error: connect ENETUNREACH 64:ff9b::3210:5761:27017 - Local (192.168.36.219:53914)
+            at internalConnectMultiple (node:net:1159:40)
+            at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+            at listOnTimeout (node:internal/timers:575:11)
+            at processTimers (node:internal/timers:514:7) {
+          errno: -101,
+          code: 'ENETUNREACH',
+          syscall: 'connect',
+          address: '64:ff9b::3210:5761',
+          port: 27017
+        }
+      ]
+    },
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+  },
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-sle3huu-shard-00-00.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-00.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174505253,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21)
+            at runNextTicks (node:internal/process/task_queues:64:3)
+            at listOnTimeout (node:internal/timers:540:9)
+            at processTimers (node:internal/timers:514:7) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3210:5761:27017 - Local (192.168.36.219:53914)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3210:5761',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'ac-sle3huu-shard-00-01.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-01.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174505253,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3d3:ec39:27017 - Local (192.168.36.219:55640)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3d3:ec39',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'ac-sle3huu-shard-00-02.h2zs6eo.mongodb.net:27017' => ServerDescription {
+        address: 'ac-sle3huu-shard-00-02.h2zs6eo.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 174504789,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 
+            at connectionFailureError (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:491:14)
+            at TLSSocket.<anonymous> (/media/mridul/workdrive/next-level-2/university-manage-auth-service/node_modules/mongodb/src/cmap/connect.ts:392:16)
+            at Object.onceWrapper (node:events:626:26)
+            at TLSSocket.emit (node:events:511:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: AggregateError: 
+              at internalConnectMultiple (node:net:1102:18)
+              at internalConnectMultiple (node:net:1160:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+              at listOnTimeout (node:internal/timers:575:11)
+              at processTimers (node:internal/timers:514:7) {
+            code: 'ENETUNREACH',
+            [errors]: [
+              Error: connect ENETUNREACH 64:ff9b::3d5:40d4:27017 - Local (192.168.36.219:58870)
+                  at internalConnectMultiple (node:net:1159:40)
+                  at Timeout.internalConnectMultipleTimeout (node:net:1637:3)
+                  at listOnTimeout (node:internal/timers:575:11)
+                  at processTimers (node:internal/timers:514:7) {
+                errno: -101,
+                code: 'ENETUNREACH',
+                syscall: 'connect',
+                address: '64:ff9b::3d5:40d4',
+                port: 27017
+              }
+            ]
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-7l3hq9-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-06-15T09:06:19.208Z'
+}
